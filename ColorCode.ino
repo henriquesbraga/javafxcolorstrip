@@ -10,6 +10,7 @@ Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
   be showed in strip.
   Henrique Braga
 **/
+
 void setup() {
   Serial.begin(9600);
   strip.begin();
@@ -33,7 +34,7 @@ void loop() {
       
 
       colorWipe(strip.Color(r,   g,   b));
-      delay(2000);
+      
 
       }
 }
