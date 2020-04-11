@@ -3,11 +3,17 @@
 #define LED_COUNT 120
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
+/**
+  Java program will send an color by serial port.
+  Here, the color code received will be transformed
+  from hexadecimal to RGB and then, the color will
+  be showed in strip.
+  Henrique Braga
+**/
 void setup() {
   Serial.begin(9600);
   strip.begin();
   strip.setBrightness(50);
-
 }
 
       long r;
