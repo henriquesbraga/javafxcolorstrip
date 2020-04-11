@@ -14,9 +14,8 @@ You also will need AdafruitNeoPixel library.
 
 Future implementations will include: Insert effects and change brightness by parameters.
 
-<img src="https://drive.google.com/uc?id=1-L16oTVt4A1jLp_IGwwbISFn3VZ-FFVQ"/>
+<img src="https://drive.google.com/uc?id=1I32m1tNHq5lN2VlaeYnLIKLHqaS7XkG"/>
 <img src="https://drive.google.com/uc?id=1SiyKkddvJx7vLywvJZZY7CdrbZPHa97V"/>
 
 <img src="https://media.giphy.com/media/TjpaYS1LVASLAZriqv/giphy.gif"/>
 
-![](https://media.giphy.com/media/TjpaYS1LVASLAZriqv/giphy.gif)
