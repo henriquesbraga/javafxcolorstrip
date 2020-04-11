@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="244.0" prefWidth="303.0" styleClass="anchorpane" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.henriquesbraga.controllers.PrimaryController">
+   <children>
+      <ColorPicker fx:id="colorPicker" editable="true" layoutX="78.0" layoutY="137.0" prefWidth="148.0" />
+      <ComboBox fx:id="cbPortas" layoutX="93.0" layoutY="25.0" prefHeight="25.0" prefWidth="118.0" promptText="Arduino port" />
+      <JFXButton fx:id="btnConectar" buttonType="RAISED" layoutX="115.0" layoutY="62.0" onAction="#conectar" prefHeight="25.0" prefWidth="74.0" text="Connect" />
+      <JFXButton fx:id="btnSend" buttonType="RAISED" layoutX="116.0" layoutY="173.0" onAction="#sendColor" text="Send Color" />
+   </children>
+</AnchorPane>

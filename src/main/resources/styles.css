@@ -1,0 +1,11 @@
+
+.jfx-button {
+     -jfx-button-type: RAISED;
+     -fx-background-color: blue;
+     -fx-text-fill: white;
+}
+
+.anchorpane{
+    -fx-background-color: #3c3c3c;
+
+}
