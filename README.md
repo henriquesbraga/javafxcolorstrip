@@ -14,8 +14,8 @@ You also will need AdafruitNeoPixel library.
 
 Future implementations will include: Insert effects and change brightness by parameters.
 
+Libraries used: JSerialComm, Jfoenix and Adafruit NeoPixel.
 
-<img src="https://drive.google.com/uc?id=1I32m1tNHq5lN2VlaeYnLIKLHqaS7XkG"/>
+JavaFX in JDK 11 using a maven project. (You will need maven to generate .jar)
 
-<img src="https://drive.google.com/uc?id=1I32m1tNHq5lN2VlaeYnLIKLHqaS7XkG-"/>
 
