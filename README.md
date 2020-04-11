@@ -4,6 +4,11 @@ An JavaFX Application that changes the color of ws2812b led strip.
 
 This application change the color of ws2812b strip via desktop.
 
+The strip connection is: 5v in ardunino input 5v, GND in arduino GND and data pin in Digital input 3.
+For better color enhancement, you will need an external 5v power supply because arduino doesn't have power to keep especific color
+that need too much power (white, for exemple) so, i set the brightness in arduino in 50 (strip.setBrightness(50))
+if you have a external power supply, you can delete this line.
+
 You have to upload the colorCode.ino to your arduino and launch the program.
 Open terminal on the project folder and type "mvn clean package" to generate jar in /target folder.
 
